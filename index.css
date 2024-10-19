@@ -1,0 +1,22 @@
+body{
+    margin: 0; 
+    background-image: url("wonder.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#clock{
+    text-align: center;
+    font-size: 4.5rem;
+    font-weight: bold;
+    font-family: monospace;
+    color: white;
+    backdrop-filter: blur(20px);
+}
